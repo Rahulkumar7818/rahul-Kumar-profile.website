@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rahul Kumar | AI/ML Developer | NIT Patna</title>
+
+<meta name="description" content="Rahul Kumar - B.Tech CSE at NIT Patna. AI/ML Developer, MERN Stack Developer, Competitive Programmer.">
+<meta name="keywords" content="Rahul Kumar NIT Patna, AI ML Developer, MERN Developer, LeetCode 350+, Codeforces">
+<meta name="author" content="Rahul Kumar">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --bg:#0f172a;
+    --text:#ffffff;
+    --card:#1e293b;
+    --accent:#38bdf8;
+}
+
+.light{
+    --bg:#ffffff;
+    --text:#111827;
+    --card:#f1f5f9;
+    --accent:#2563eb;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    transition:0.4s;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 80px;
+    position:sticky;
+    top:0;
+    background:var(--bg);
+}
+
+nav h2{color:var(--accent);}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:500;
+}
+
+nav a:hover{
+    color:var(--accent);
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:120px 20px;
+    animation:fadeUp 1s ease;
+}
+
+.hero h1{
+    font-size:48px;
+    color:var(--accent);
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:18px;
+}
+
+.btn{
+    margin-top:25px;
+    display:inline-block;
+    padding:10px 25px;
+    background:var(--accent);
+    color:black;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+/* Sections */
+section{
+    padding:70px 80px;
+}
+
+h3{
+    font-size:28px;
+    margin-bottom:25px;
+    color:var(--accent);
+}
+
+.card{
+    background:var(--card);
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Skills */
+.skill{
+    margin-bottom:15px;
+}
+.bar{
+    height:8px;
+    background:#334155;
+    border-radius:5px;
+    overflow:hidden;
+}
+.bar div{
+    height:8px;
+    background:var(--accent);
+}
+
+/* Contact */
+.contact input,
+.contact textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+}
+
+/* Animation */
+@keyframes fadeUp{
+    from{opacity:0;transform:translateY(30px);}
+    to{opacity:1;transform:translateY(0);}
+}
+
+.toggle{
+    cursor:pointer;
+    background:var(--accent);
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+    color:black;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    nav{padding:20px;}
+    section{padding:40px 20px;}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Rahul Kumar</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><span class="toggle" onclick="toggleMode()">Mode</span></li>
+    </ul>
+</nav>
+
+<div class="hero">
+    <h1>AI/ML Developer</h1>
+    <p>B.Tech CSE | NIT Patna (2022–2026)</p>
+    <a href="RahulKumar-Resume-2026.pdf" download class="btn">Download Resume</a>
+</div>
+
+<section id="about">
+<h3>About Me</h3>
+<div class="card">
+Passionate Computer Science student at NIT Patna specializing in AI/ML and Full Stack Development. Active competitive programmer with 350+ problems solved on LeetCode.
+</div>
+</section>
+
+<section id="projects">
+<h3>Projects</h3>
+
+<div class="card">
+<b>AI/ML Invoice Extractor</b><br>
+OCR + Google Gemini powered structured JSON invoice extraction system.
+</div>
+
+<div class="card">
+<b>Machine Learning Model for Women Safety</b><br>
+Real-time classification model detecting unsafe scenarios.
+</div>
+
+<div class="card">
+<b>FEMbalance (MERN Stack)</b><br>
+Women’s health tracking full stack web application.
+</div>
+
+</section>
+
+<section id="skills">
+<h3>Technical Skills</h3>
+
+<div class="skill">C++ <div class="bar"><div style="width:90%"></div></div></div>
+<div class="skill">Java <div class="bar"><div style="width:85%"></div></div></div>
+<div class="skill">Python <div class="bar"><div style="width:88%"></div></div></div>
+<div class="skill">ReactJS <div class="bar"><div style="width:80%"></div></div></div>
+<div class="skill">NodeJS <div class="bar"><div style="width:75%"></div></div></div>
+
+</section>
+
+<section id="achievements">
+<h3>Achievements & Certifications</h3>
+
+<div class="card">
+• 350+ Problems Solved on LeetCode  
+• Active Codeforces Competitive Programmer  
+• Bajaj Datathon 2025  
+• Odoo Hackathon 2023  
+• NPTEL Certifications (IIT Madras)
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+<h3>Contact Me</h3>
+
+<form action="mailto:rahulk.ug22.cs@nitp.ac.in" method="post" enctype="text/plain">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Message" required></textarea>
+<button type="submit" class="btn">Send Message</button>
+</form>
+
+<div class="card">
+📧 rahulk.ug22.cs@nitp.ac.in  
+📱 +91-7818941304  
+🔗 linkedin.com/in/rahul-kumar-0a1203280  
+💻 github.com/Rahulkumar7818
+</div>
+
+</section>
+
+<footer>
+© 2026 Rahul Kumar | NIT Patna | All Rights Reserved
+</footer>
+
+<script>
+function toggleMode(){
+    document.body.classList.toggle("light");
+}
+</script>
+
+</body>
+</html>
